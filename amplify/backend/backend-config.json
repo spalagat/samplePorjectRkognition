@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"rkognitionf941c221": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"rkognitionSample": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
